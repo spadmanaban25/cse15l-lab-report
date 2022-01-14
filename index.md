@@ -1,1 +1,1 @@
-# *CSE 15L Week 2 Lab Report: Remote Access*
+# *CSE 15L Week 2 Lab Report: Remote Accesss*
