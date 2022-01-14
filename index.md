@@ -51,7 +51,31 @@ First, create a Java file (or any file type, but we will create a Java file for 
 your Java file is located: <br><br>
 <img src = "file:///C:/Users/padsp/Downloads/scp%20command.jpg"/>
 <br><br>
+Where you replace WhereAmI.java with the Java file you created. <br><br>
 As usual, you will be prompted to enter your password. Enter, and the action will be executed. Then, log in to ssh, and type **ls** which lists all files located in the directory: <br><br>
 <img src= "file:///C:/Users/padsp/Documents/Steve/scp%20command%20result.jpg" width="625" height="350"/>
 <br><br>
-Here is an example of using **scp** to move a Java file to a remote computer, and the results of it.</span>
+Here is an example of using **scp** to move a Java file to a remote computer, and the results of it.</span> <br><br><br>
+## SSH Keys
+<span style="font-size:18px;">As mentioned earlier, we will now discuss about SSH Keys. Basically, this feature allows us to create two SSH keys, one public and one private.
+The public key is saved in a location on the server, and the private key is saved in a location on your computer. So then when you log on to ssh, you don't need your password. <br><br>
+You will implementing a component of ssh called keygen to set up your public/private keys. Type the following command: <br><br>
+<img src= "file:///C:/Users/padsp/Documents/Steve/ssh%20keys%20setup.jpg"/><br><br>
+For Windows users, additional setup is required in which you will need to implement ssh-add: <br><br>
+<img src="file:///C:/Users/padsp/Downloads/ssh-add%20feature.jpg"/><br><br>
+This will add the private key to your client directory. Then log in through ssh, and use **mkdir** to create a new directory, ".ssh". After this, log out. <br><br>Now we have to add the public key to the remote computer server using **scp**: <br><br>
+<img src = "file:///C:/Users/padsp/Downloads/add%20ssh%20key%20to%20server.jpg"/><br><br>
+We are done. Now, you can **ssh** without entering the password.<br><br></span>
+<img src="file:///C:/Users/padsp/Documents/Steve/ssh%20keys%20results.jpg" width="750" height="375"/><br><br><br>
+## Optimizing Remote Running
+<span style="font-size:18px;">So far, you have learned how to log into the remote server and use different commands when logged in. We can take one step further
+and run files and commands remotely through efficient methods. One way we can do this is append commands in quotes on the ssh login statement: <br><br>
+<img src="file:///C:/Users/padsp/Documents/Steve/optimize%20ssh%20command1.jpg"/><br><br>
+Another way is to run multiple files at the same time, separating each file with semicolon:</span>
+<img src="file:///C:/Users/padsp/Downloads/optimize%20ssh%20command2.jpg" width="700" height="350"/><br><br>
+## Conclusion
+<span style="font-size:18px;">You have now learned how to remotely connect your personal computer to UCSD's remote computer. 
+Also, you have learned linux commands that are used to run on the server, commands that cannot be used on a Windows or Mac
+platform. Moreover, you now know how to optimize your ssh environment by adding ssh keys, and learning syntax that can do multiple
+actions in one statement. 
+
