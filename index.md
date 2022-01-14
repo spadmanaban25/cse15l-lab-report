@@ -10,7 +10,7 @@
 <br><br><br>
 <span style="font-size:18px;">After downloading and installing VS Code, you should have this opening page on VS Code: </span>
 <br><br>
-<img src="/vscode%20opening%20page.JPG" width=625 height=350"/>
+<img src="/vscode%20opening%20page.JPG" width="625" height="350"/>
 <br><br><br>
 ## Remotely Connecting
 <span style="font-size:18px;">For Windows users, you will need a program called OpenSSH installed. To check if it is installed, go to **Settings**, **Apps**, **Apps and Features**,
