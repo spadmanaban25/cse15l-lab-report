@@ -33,7 +33,7 @@ UCSD username, and Student ID (starts with A). Then click on CSE15L course, and 
 Next, it will ask for password, so type in your password (it will appear blank, but you are still typing). There might few times where it will ask you to type the password
 couple times, but again it might be due to new device login, or you are typing incorrect password. Afer this, you should get a similar result:	
 <br><br>
-![](file:///C:/Users/padsp/Documents/Steve/remote%20connection%20result.JPG){width=625 height=350}
+![](file:///C:/Users/padsp/Documents/Steve/remote%20connection%20result.JPG)
 <br><br>
 Now you are logged in! Here, I didn't need to type my password in because I had set ssh keys in which I don't have to type in my password every time I login. We will
 discuss more about this later on.</span>
@@ -43,7 +43,7 @@ discuss more about this later on.</span>
 is running a linux operating system. Some commands include, **cd**, **ls**, and **pwd**. Go to this [link](https://ucsd-cse15l-w22.github.io/week/week1/#part-4--run-some-commands) to 
 see list of commands the CSE15L staff provided. <br><br> Also, go to this [link](https://www.javatpoint.com/linux-commands) to find more linux commands.</span>
 <br><br>
-![](file:///C:/Users/padsp/Documents/Steve/ssh%20commands.jpg){width=625 height=350}
+![](file:///C:/Users/padsp/Documents/Steve/ssh%20commands.jpg)
 <br><br><br>
 ## Moving Files over SSH with scp
 <span style="font-size:18px;">We will now see how to copy files from your personal computer to the remote server. The command, **scp** helps us do this. <br> <br>
@@ -53,14 +53,14 @@ your Java file is located: <br><br>
 <br><br>
 Where you replace WhereAmI.java with the Java file you created. <br><br>
 As usual, you will be prompted to enter your password. Enter, and the action will be executed. Then, log in to ssh, and type **ls** which lists all files located in the directory: <br><br>
-![](file:///C:/Users/padsp/Documents/Steve/scp%20command%20result.jpg){width=625 height=350}
+![](file:///C:/Users/padsp/Documents/Steve/scp%20command%20result.jpg)
 <br><br>
 Here is an example of using **scp** to move a Java file to a remote computer, and the results of it.</span> <br><br><br>
 ## SSH Keys
 <span style="font-size:18px;">As mentioned earlier, we will now discuss about SSH Keys. Basically, this feature allows us to create two SSH keys, one public and one private.
 The public key is saved in a location on the server, and the private key is saved in a location on your computer. So then when you log on to ssh, you don't need your password. <br><br>
 You will implementing a component of ssh called keygen to set up your public/private keys. Type the following command: <br><br>
-![](file:///C:/Users/padsp/Documents/Steve/ssh%20keys%20setup.jpg){width=875 height=350}<br><br>
+![](file:///C:/Users/padsp/Documents/Steve/ssh%20keys%20setup.jpg)<br><br>
 For Windows users, additional setup is required in which you will need to implement ssh-add: <br><br>
 ![](file:///C:/Users/padsp/Downloads/ssh-add%20feature.jpg)<br><br>
 This will add the private key to your client directory. Then log in through ssh, and use **mkdir** to create a new directory, ".ssh". After this, log out. <br><br>Now we have to add the public key to the remote computer server using **scp**: <br><br>
