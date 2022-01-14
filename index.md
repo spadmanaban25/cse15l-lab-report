@@ -3,9 +3,9 @@
 <span style="font-size:20px;">In this lab report, I will show how to remotely connect your personal computer (client) to the UCSD's ieng6 server.</span>
 <br><br><br>
 ## Installing VS Code
-<span style="font-size:18px;">For this tutorial I will be using Visual Studio Code for the remote connection. Go to the Microsoft VS Code website to download VS Code for any platform.</span>
+<span style="font-size:18px;">For this tutorial, I will be using Visual Studio Code as the IDE for the remote connection. Go to the Microsoft VS Code website to download VS Code for any platform.</span>
 <br><br>
-<img src = "file:///C:/Users/padsp/Documents/Steve/vs%20code%20download%20screenshot.JPG" width="625" height="350"/>
+<img src = "C:/Users/padsp/Documents/Steve/vs%20code%20download%20screenshot.JPG" width="625" height="350"/>
 <br><br><br>
 <span style="font-size:18px;">After downloading and installing VS Code, you should have this opening page on VS Code: </span>
 <br><br>
@@ -36,7 +36,7 @@ couple times, but again it might be due to new device login, or you are typing i
 <img src="file:///C:/Users/padsp/Documents/Steve/remote%20connection%20result.JPG" width="625" height="350"/>
 <br><br>
 Now you are logged in! Here, I didn't need to type my password in because I had set ssh keys in which I don't have to type in my password every time I login. We will
-discuss more later on.</span>
+discuss more about this later on.</span>
 <br><br><br>
 ## Try Running Some Commands
 <span style="font-size:18px;">Now that you are logged in, type some commands and see the results. Remember, we will be using linux commands since we have now logged into the server which
