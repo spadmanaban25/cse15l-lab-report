@@ -5,7 +5,7 @@
 ## Installing VS Code
 <span style="font-size:18px;">For this tutorial, I will be using Visual Studio Code as the IDE for the remote connection. Go to the Microsoft VS Code website to download VS Code for any platform.</span>
 <br><br>
-![Image](https://drive.google.com/file/d/1lncx8qjAsvuHvkW2QsvRzVU0el_ZIYuR/view?usp=sharing)
+![Image](file:///C:/Users/padsp/Documents/Steve/vs%20code%20download%20screenshot.JPG)
 <br><br><br>
 <span style="font-size:18px;">After downloading and installing VS Code, you should have this opening page on VS Code: </span>
 <br><br>
