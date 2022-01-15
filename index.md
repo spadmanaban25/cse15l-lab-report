@@ -17,7 +17,7 @@
 and select **Optional Features**. Search for OpenSSH Server and OpenSSH Client. If one of them or both of them don't show up, then click **Add A Feature**, and install 
 them.
 <br><br>
-![](file:///C:/Users/padsp/Documents/Steve/ssh%20feature%20screenshot.JPG){width=625 height=350}
+![](https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/ssh%20feature%20screenshot.JPG?raw=true){width=625 height=350}
 </span>
 <br><br>
 <span style="font-size:18px;">You will need your CSE15L course-specific account username. Go to this [link](https://sdacs.ucsd.edu/~icc/index.php), enter your 
