@@ -57,7 +57,7 @@ As usual, you will be prompted to enter your password. Enter, and the action wil
 Here is an example of using **scp** to move a Java file to a remote computer, and the results of it. You will see the file you copied: <br><br></span>
 <img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/scp%20command%20result.jpg?raw=true" width="625" height="350"/>
 <br><br>
-## SSH Keys
+## Setting an SSH Key
 <span style="font-size:18px;">As mentioned earlier, we will now discuss about SSH Keys. Basically, this feature allows us to create two SSH keys, one public and one private.
 The public key is saved in a location on the server, and the private key is saved in a location on your computer. So then when you log on to ssh, you don't need your password. <br><br>
 You will implementing a component of ssh called **keygen** to set up your public/private keys. Type the following command: <br><br>
