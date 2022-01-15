@@ -54,7 +54,7 @@ your Java file is located: <br><br>
 <br><br>
 Where you replace WhereAmI.java with the Java file you created. <br><br>
 As usual, you will be prompted to enter your password. Enter, and the action will be executed. Then, log in to ssh, and type **ls** which lists all files located in the directory. <br><br>
-Here is an example of using **scp** to move a Java file to a remote computer, and the results of it:<br><br></span>
+Here is an example of using **scp** to move a Java file to a remote computer, and the results of it. You will see the file you copied: <br><br></span>
 <img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/scp%20command%20result.jpg?raw=true" width="625" height="350"/>
 <br><br>
 ## SSH Keys
