@@ -34,7 +34,7 @@ UCSD username, and Student ID (starts with A). Then click on CSE15L course, and 
 Next, it will ask for password, so type in your password (it will appear blank, but you are still typing). There might few times where it will ask you to type the password
 couple times, but again it might be due to new device login, or you are typing incorrect password. Afer this, you should get a similar result:	
 <br><br>
-<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/remote%20connection%20result.jpg?raw=true"/>
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/remote%20connection%20result.jpg?raw=true" width="625" height="350"/>
 <br><br>
 Now you are logged in! Here, I didn't need to type my password in because I had set ssh keys in which I don't have to type in my password every time I login. We will
 discuss more about this later on.</span>
@@ -44,7 +44,7 @@ discuss more about this later on.</span>
 is running a linux operating system. Some commands include, **cd**, **ls**, and **pwd**. Go to this [link](https://ucsd-cse15l-w22.github.io/week/week1/#part-4--run-some-commands) to 
 see list of commands the CSE15L staff provided. <br><br> Also, go to this [link](https://www.javatpoint.com/linux-commands) to find more linux commands.</span>
 <br><br>
-<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/ssh%20commands.jpg?raw=true"/>
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/ssh%20commands.jpg?raw=true" width="625" height="350"/>
 <br><br><br>
 ## Moving Files over SSH with scp
 <span style="font-size:18px;">We will now see how to copy files from your personal computer to the remote server. The command, **scp** helps us do this. <br> <br>
@@ -54,26 +54,26 @@ your Java file is located: <br><br>
 <br><br>
 Where you replace WhereAmI.java with the Java file you created. <br><br>
 As usual, you will be prompted to enter your password. Enter, and the action will be executed. Then, log in to ssh, and type **ls** which lists all files located in the directory: <br><br>
-![](file:///C:/Users/padsp/Documents/Steve/scp%20command%20result.jpg)
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/scp%20command.JPG?raw=true" width="625" height="350"/>
 <br><br>
 Here is an example of using **scp** to move a Java file to a remote computer, and the results of it.</span> <br><br><br>
 ## SSH Keys
 <span style="font-size:18px;">As mentioned earlier, we will now discuss about SSH Keys. Basically, this feature allows us to create two SSH keys, one public and one private.
 The public key is saved in a location on the server, and the private key is saved in a location on your computer. So then when you log on to ssh, you don't need your password. <br><br>
 You will implementing a component of ssh called keygen to set up your public/private keys. Type the following command: <br><br>
-![](file:///C:/Users/padsp/Documents/Steve/ssh%20keys%20setup.jpg)<br><br>
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/ssh%20keys%20setup.JPG?raw=true"/><br><br>
 For Windows users, additional setup is required in which you will need to implement ssh-add: <br><br>
-![](file:///C:/Users/padsp/Downloads/ssh-add%20feature.jpg)<br><br>
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/ssh-add%20feature.JPG?raw=true"/><br><br>
 This will add the private key to your client directory. Then log in through ssh, and use **mkdir** to create a new directory, ".ssh". After this, log out. <br><br>Now we have to add the public key to the remote computer server using **scp**: <br><br>
-![](file:///C:/Users/padsp/Downloads/add%20ssh%20key%20to%20server.jpg)<br><br>
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/add%20ssh%20key%20to%20server.JPG?raw=true"/><br><br>
 We are done. Now, you can **ssh** without entering the password.<br><br></span>
-![](file:///C:/Users/padsp/Documents/Steve/ssh%20keys%20results.jpg){width=750 height=375}<br><br><br>
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/ssh%20keys%20results.jpg?raw=true" width="750" height="375"/><br><br><br>
 ## Optimizing Remote Running
 <span style="font-size:18px;">So far, you have learned how to log into the remote server and use different commands when logged in. We can take one step further
 and run files and commands remotely through efficient methods. One way we can do this is append commands in quotes on the ssh login statement: <br><br>
-![](file:///C:/Users/padsp/Documents/Steve/optimize%20ssh%20command1.jpg)<br><br>
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/optimize%20ssh%20command1.JPG?raw=true"/><br><br>
 Another way is to run multiple files at the same time, separating each file with semicolon:</span>
-![](file:///C:/Users/padsp/Downloads/optimize%20ssh%20command2.jpg){width=700 height=350}<br><br>
+<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/optimize%20ssh%20command2.jpg?raw=true" width="700" height="350"/><br><br>
 ## Conclusion
 <span style="font-size:18px;">You have now learned how to remotely connect your personal computer to UCSD's remote computer. 
 Also, you have learned linux commands that are used to run on the server, commands that cannot be used on a Windows or Mac
