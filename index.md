@@ -2,8 +2,8 @@
 
 <span style="font-size:20px;">In this lab report, I will show how to remotely connect your personal computer (client) to the UCSD's ieng6 server.</span>
 <br><br><br>
+<span style="font-size:18px;">For this tutorial, I will be using Visual Studio Code as the IDE for the remote connection. Go to the Microsoft VS Code website [https://code.visualstudio.com/](https://code.visualstudio.com/) , to download VS Code for any platform.</span>
 ## Installing VS Code
-<span style="font-size:18px;">For this tutorial, I will be using Visual Studio Code as the IDE for the remote connection. Go to the Microsoft VS Code website https://code.visualstudio.com/ , to download VS Code for any platform.</span>
 <br><br>
 <img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/vscodedownloadscreenshot.JPG?raw=true" width="625" height="350"/>
 
