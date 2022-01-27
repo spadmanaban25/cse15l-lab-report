@@ -191,8 +191,23 @@ C:\Users\padsp>scp C:/Users/padsp/.ssh/id_rsa.pub_cs151wi22avv@ieng.ucsd.edu:-/.
 Password: 
 id_rsa.pub
 ```
-We are done. Now, you can **ssh** without entering the password.<br><br></span>
-<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/ssh%20keys%20results.jpg?raw=true" width="750" height="375"/><br><br><br>
+We are done. Now, you can **ssh** without entering the password.<br><br>
+```
+ssh cs15lwi22yy@ieng6.ucsd.edu
+Last login: Wed Jan 5 10:57:29 2022 from 107-143-89-38.lightspeed.miamifl.sbcglobal.net
+quota: No filesystem specified.
+Hello cs15lwi22yy, you are currently logged into ieng6-203.ucsd.edu
+
+You are using 0% CPU on this system
+
+Cluster Status 
+Hostname     Time    #Users  Load  Averages  
+ieng6-201   18:25:01   34  2.60,  2.50, 2.41
+ieng6-202   18:25:01   23  3.29,  3.30, 3.26
+ieng6-203   18:25:01   27  1.25,  1.32, 1.18
+
+Thu Jan 06, 2022 6:28pm - Prepping cs15lwi22
+```
 ## Optimizing Remote Running
 <span style="font-size:18px;">So far, you have learned how to log into the remote server and use different commands when logged in. We can take one step further
 and run files and commands remotely through efficient methods. One way we can do this is append commands in quotes on the ssh login statement: <br><br>
