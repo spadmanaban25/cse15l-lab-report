@@ -28,7 +28,7 @@ UCSD username, and Student ID (starts with A). Then click on CSE15L course, and 
 <span style="font-size:18px;">Now we will go to VS Code and start the remote connection. Click on the Terminal Tab to open a new Terminal (or Ctrl/Command + \` ). Type the following command: </span>
 <br><br>
 `ssh cs15lwi22yy@ieng6.ucsd.edu`
-<br>
+<br><br>
 <span style="font-size:18px;">Where yy is your last few characters of your username</span><br>
 <span style= "font-size:18px;">Once you press Enter, it will ask you if you are sure to continue connecting (This happens when you try to login to new device). Type ***yes*** and continue.
 Next, it will ask for password, so type in your password (it will appear blank, but you are still typing). There might be circumstances where it will ask you to type the password
@@ -51,7 +51,7 @@ ieng6-203   18:25:01   27  1.25,  1.32, 1.18
 Thu Jan 06, 2022 6:28pm - Prepping cs15lwi22
 ```
 <br><br>
-Now you are logged in! Here, I didn't need to type my password in because I had set ssh keys in which I don't have to type in my password every time I login. We will
+<span style="font-size:18px;">Now you are logged in! Here, I didn't need to type my password in because I had set ssh keys in which I don't have to type in my password every time I login. We will
 discuss more about this later on.</span>
 <br><br>
 ## Try Running Some Commands
@@ -134,6 +134,11 @@ class WhereAmI {
     System.out.println(System.getProperty("user.dir"));
   }
 }
+```
+```
+C:\Projects\VS Code Java Projects\Java Project 1\src>scp WhereAmI.java cs15lwi22yy@ieng6.ucsd.edu:~/
+
+WhereAmI.java    			100%  371     4.3KB/s   00:00
 ```
 
 ```
