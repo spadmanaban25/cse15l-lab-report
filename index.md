@@ -240,7 +240,7 @@ class WhereAmI {
 ```
 C:\Users\padsp\Documents\Steve\Eclipse\eclipse\Javapractice\src>scp WhereAmI.java cs15lwi22yy@ieng6.ucsd.edu:~/
 
-WhereAmI.java    										100%  371     4.3KB/s   00:00
+WhereAmI.java    			100%  371     4.3KB/s   00:00
 ```
 ```
 C:\Users\padsp\Documents\Steve\Eclipse\eclipse\Javapractice\src>ssh cs15lwi22avv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
