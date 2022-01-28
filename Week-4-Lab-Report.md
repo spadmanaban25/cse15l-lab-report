@@ -28,7 +28,7 @@ Adding the if statement to maintain the condition that the open bracket index is
 Here, I just made sure that the method won't do the operations if it is not greater than 0, but I need to find
 a way to break out the while loop if it is less than 0, since it isn't guaranteed in this select test file that 
 there won't be an open bracket. Because I didn't add a break statement, the java command lead to a freezing or 
-hanging output on commandline. To resolve this, I needed to add a break statement to let the method know to break out of the
+hanging output on command line. To resolve this, I needed to add a break statement to let the method know to break out of the
 loop if the index if less than 0.
 <br><br>
 
