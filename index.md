@@ -31,7 +31,7 @@ UCSD username, and Student ID (starts with A). Then click on CSE15L course, and 
 <br>
 <span style="font-size:18px;">Where yy is your last few characters of your username</span><br>
 <span style= "font-size:18px;">Once you press Enter, it will ask you if you are sure to continue connecting (This happens when you try to login to new device). Type ***yes*** and continue.
-Next, it will ask for password, so type in your password (it will appear blank, but you are still typing). There might few times where it will ask you to type the password
+Next, it will ask for password, so type in your password (it will appear blank, but you are still typing). There might be circumstances where it will ask you to type the password
 couple times, but again it might be due to new device login, or you are typing incorrect password. Afer this, you should get a similar result:	
 <br>
 ```
@@ -145,7 +145,7 @@ HelloTest.java   Test.class      Tester.java  WhereAmI.java   perl5
 ## Setting an SSH Key
 <span style="font-size:18px;">As mentioned earlier, we will now discuss about SSH Keys. Basically, this feature allows us to create two SSH keys, one public and one private.
 The public key is saved in a location on the server, and the private key is saved in a location on your computer. So then when you log on to ssh, you don't need your password. <br><br>
-You will implementing a component of ssh called **keygen** to set up your public/private keys. Type the following command: <br>
+You will be implementing a component of ssh called **keygen** to set up your public/private keys. Type the following command: <br>
 ```
 C:\Users\padsp>ssh-keygen
 Generating public/private rsa key pair.
@@ -187,11 +187,11 @@ ssh-add ~\.ssh\id_ed25519
 
 This will add the private key to your client directory. Then log in through ssh, and use **mkdir** to create a new directory, ".ssh". After this, log out. <br><br>Now we have to add the public key to the remote computer server using **scp**: <br>
 ```
-C:\Users\padsp>scp C:/Users/padsp/.ssh/id_rsa.pub_cs151wi22avv@ieng.ucsd.edu:-/.ssh/authorized_keys 
+C:\Users\padsp>scp C:/Users/padsp/.ssh/id_rsa.pub cs151wi22yy@ieng6.ucsd.edu:~/.ssh/authorized_keys 
 Password: 
 id_rsa.pub
 ```
-We are done. Now, you can **ssh** without entering the password.<br><br>
+We are done. Now, you can **ssh** without entering the password.<br>
 ```
 ssh cs15lwi22yy@ieng6.ucsd.edu
 Last login: Wed Jan 5 10:57:29 2022 from 107-143-89-38.lightspeed.miamifl.sbcglobal.net
@@ -210,10 +210,49 @@ Thu Jan 06, 2022 6:28pm - Prepping cs15lwi22
 ```
 ## Optimizing Remote Running
 <span style="font-size:18px;">So far, you have learned how to log into the remote server and use different commands when logged in. We can take one step further
-and run files and commands remotely through efficient methods. One way we can do this is append commands in quotes on the ssh login statement: <br><br>
-<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/optimize%20ssh%20command1.JPG?raw=true"/><br><br>
+and run files and commands remotely through efficient methods. This helps us save the number of keystrokes, or number of taps on the keyboard when running the 
+program. One way we can do this is append commands in quotes on the ssh login statement: <br>
+```
+C:\Users\padsp>ssh cs15lwi22yy@ieng6.ucsd.edu "ls"
+HelloTest.class
+HelloTest.java
+OtherMain.java
+Test.class
+Test.java
+Tester.java
+WhereAmI.class
+WhereAmI.java
+hello
+perl5
+```
 Another way is to run multiple files at the same time, separating each file with semicolon:</span>
-<img src="https://github.com/spadmanaban25/cse15l-lab-report-week-2/blob/main/optimize%20ssh%20command2.jpg?raw=true" width="700" height="450"/><br><br>
+```
+class WhereAmI {     
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+    System.out.println("Making a Local Edit to this Java File."); //Edit
+  }
+}
+```
+```
+C:\Users\padsp\Documents\Steve\Eclipse\eclipse\Javapractice\src>scp WhereAmI.java cs15lwi22yy@ieng6.ucsd.edu:~/
+
+WhereAmI.java    																	100%  371     4.3KB/s   00:00
+```
+```
+C:\Users\padsp\Documents\Steve\Eclipse\eclipse\Javapractice\src>ssh cs15lwi22avv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+Linux
+cs15lwi22avv
+/home/linux/ieng6/cs15lwi22/cs15lwi22avv
+/home/linux/ieng6/cs15lwi22/cs15lwi22avv
+Making a Local Edit to this Java File.
+```
+Keystroke Count: 10
+<br>
+<br>
 ## Conclusion
 <span style="font-size:18px;">You have now learned how to remotely connect your personal computer to UCSD's remote computer. 
 Also, you have learned linux commands that are used to run on the server, commands that cannot be used on a Windows or Mac
