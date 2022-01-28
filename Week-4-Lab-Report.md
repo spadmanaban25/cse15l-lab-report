@@ -13,7 +13,7 @@ or improve the code provided in Labs 3 and 4.
 <br><br>
 Here, the bug was that no condition was implemented in the getLinks method to check if the index of the open bracket was -1,
 meaning there is no first occurence of an open bracket. Because of this, the current index  will always be less than the 
-markdown length, and the array list will keep adding elements infinitely, causing an out of memory exception on commandline when
+markdown length, and the array list will keep adding elements infinitely, causing an out of memory exception on command line when
 inputting the test file with no brackets. Thus, an if statement is needed, telling to do the necessary operations when open bracket index is greater than 0.
 <br><br>
 
@@ -41,7 +41,7 @@ loop if the index if less than 0.
 <br><br>
 We must consider all cases and outputs when testing. Bugs don't necessarily have to lead to an error or to 
 a system crashing. Wrong outputs are also symptoms of bugs. Here, I use a test case file where an extra
-parentheses is inserted within the link. When testing on commandline, the output was the link with that 
+parentheses is inserted within the link. When testing on command line, the output was the link with that 
 parentheses. In the method, there is no condition or command to check for any extraneous characters
 that are not needed for the link. What my lab group came up with was using a different data structure: stack.
 The stack is useful in which all characters of the link could be passed into a stack, and we could pop or remove
