@@ -45,6 +45,7 @@ parentheses is inserted within the link. When testing on commandline, the output
 parentheses. In the method, there is no condition or command to check for any extraneous characters
 that are not needed for the link. What my lab group came up with was using a different data structure: stack.
 The stack is useful in which all characters of the link could be passed into a stack, and we could pop or remove
-characters that weren't necessary for the link. 
+characters that weren't necessary for the link. However, we didn't have enough time to actually implement, so
+we came up with memory models to get a conceptual understanding. 
 
 
