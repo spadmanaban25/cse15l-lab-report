@@ -1,4 +1,4 @@
-# CSE15L Week 6 Lab Report: Streamlining ssh Configuration
+# CSE15L Week 6 Lab Report: Streamlining SSH Configuration
 
 In this lab report, I will be creating a configuration file called config that is located in the .ssh file of
 my local drive. Below are screenshots of how I created the file and using this to log in via ssh and copy and 
@@ -14,7 +14,7 @@ type "file," generic extension, so ssh can recognize this. In order to edit this
 Nodepad, so I can input the information such as host name and the user account that should recognize this name. 
 <br><br>
 
-## **SSH Config Login**
+## **SSH Configuration Login**
 <br><br><br>
 ![SSH Config Login](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%206%20Lab%20Report%20Images/ssh%20config%20login.JPG)
 <br><br>
@@ -22,7 +22,7 @@ When logging in to my course-specific account, instead of using ssh then typing 
 that I set on the config file. With this, I can simply login faster using this method.
 <br><br>
 
-## **SSH Config With SCP**
+## **SSH Configuration With SCP**
 <br><br><br>
 ![SSH Config scp file](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%206%20Lab%20Report%20Images/ssh%20config%20copy%20file.JPG)
 <br><br>
