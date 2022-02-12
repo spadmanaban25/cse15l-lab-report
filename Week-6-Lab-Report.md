@@ -5,7 +5,7 @@ my local drive. Below are screenshots of how I created the file and using this t
 move files to the server with this file.
 <br><br><br>
 
-### **SSH Configuration File**
+## **SSH Configuration File**
 <br><br><br>
 ![SSH Config Picture](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%206%20Lab%20Report%20Images/ssh%20config%20location.JPG)
 <br><br>
@@ -14,7 +14,7 @@ type "file," generic extension, so ssh can recognize this. In order to edit this
 Nodepad, so I can input the information such as host name and the user account that should recognize this name. 
 <br><br>
 
-### **SSH Config Login**
+## **SSH Config Login**
 <br><br><br>
 ![SSH Config Login](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%206%20Lab%20Report%20Images/ssh%20config%20login.JPG)
 <br><br>
@@ -22,7 +22,7 @@ When logging in to my course-specific account, instead of using ssh then typing 
 that I set on the config file. With this, I can simply login faster using this method.
 <br><br>
 
-### **SSH Config With SCP**
+## **SSH Config With SCP**
 <br><br><br>
 ![SSH Config scp file](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%206%20Lab%20Report%20Images/ssh%20config%20copy%20file.JPG)
 <br><br>
@@ -31,7 +31,7 @@ new host name. One of these occurrences is when using scp to move a file to the 
 command, but instead of typing out the whole account username, I just used the host name along with the required syntax afterwards. 
 
 <br><br>
-### **Conclusion**
+## **Conclusion**
 <br>
 Utilizing this config feature is a powerful advantage, especially when you have so much commands to type out. It reduces redundancy
 by alot, so there is space for required commands to be typed out fully. In a way, this is a form of abstraction in command-line interface.
