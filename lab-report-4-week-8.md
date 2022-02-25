@@ -16,7 +16,7 @@ that these links should be returned is that Markdown reads these as valid links,
 <br><br>
 However, my MarkdownParse had read **url.com** link as valid and returned it in the list. <br>
 ![Snippet 1 Test Failed](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%208%20Lab%20Report%20Images/testSnippet1FailedResult.JPG)
-<br><br>
+<br><br><br>
 The other person's MarkdownParse had also read **url.com** as valid too. <br>
 ![Snippet 1 Other Failed](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%208%20Lab%20Report%20Images/testSnippet1OtherFailedResult.JPG)
 <br><br>
@@ -27,7 +27,7 @@ Markdown read these links as valid using VS Code's Markdown Preview.
 <br><br>
 My MarkdownParse read all these links, except for the fact that the second link was cut short of two closing parentheses. <br>
 ![Snippet 2 Test Failed](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%208%20Lab%20Report%20Images/testSnippet2FailedResult.JPG)
-<br><br>
+<br><br><br>
 The other person's MarkdownParse had the same issue. <br>
 ![Snippet 2 Other Failed](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%208%20Lab%20Report%20Images/testSnippet2OtherFailedResult.JPG)
 <br><br>
@@ -40,7 +40,7 @@ to be returned in the list since Markdown regarded this as valid links. <br><br>
 In addition to another invalid link being added to the list, a JUnit Assertion error was thrown possibly due to extraneous
 characters included in the links or anywhere else in the text file. <br>
 ![Snippet 3 Test Failed](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%208%20Lab%20Report%20Images/testSnippet3FailedResult.JPG)
-<br><br>
+<br><br><br>
 The other person's code face the same issue including the JUnit Assertion error. <br>
 ![Snippet 3 Other Failed](https://raw.githubusercontent.com/spadmanaban25/cse15l-lab-report/main/Week%208%20Lab%20Report%20Images/testSnippet3OtherFailedResult.JPG)
 <br><br>
