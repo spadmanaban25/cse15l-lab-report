@@ -6,7 +6,7 @@ of Markdown Parse and Professor Politz's Markdown Parse
 yield different results. 
 <br>
 ## Process of Finding the Results
-Here, I used a command called bash script.sh
+Here, I used a command called **bash script.sh**
 to point to results.txt. This means that I pushed
 all the results of the test cases in mine and Professor's Markdown Parse to this new file called results.txt.
 
@@ -43,4 +43,8 @@ the index of either openParen or closeParen is possible yielding to -1.
 In this test file, three dashed lines were the only 
 content in the file. CommonMark did not recognize this 
 as a link. Because of this, my implementation produced 
-nothing, while Professor's produced three empty ArrayLists. Logically, the result should be just any empty list. I feel like mine definitly did not cover for when there are no link-related characters appearing the test file. This could have led to a symptom of infinite loop or a strange symptom since it should have just returned the empty list if anything. 
+nothing, while Professor's produced three empty ArrayLists. Logically, the result should be just any empty list. I feel like mine definitly did not cover for when there are no link-related characters appearing the test file. This could have led to a symptom of infinite loop or a strange symptom since it should have just returned the empty list if anything. I should be more specific in checking the condition of when no link related symbols exist.
+<br><br>
+
+## Conclusion
+In this lab report, I was able to detect two test files that produce different results for both implementations. This goes to show that some test files produce strange and different behavior for code that represent the same logic. It also goes to show that it each code implementation cannot satisfy every test file that exists. 
