@@ -8,3 +8,5 @@
 <br><br>
 [Week 8 Lab Report](https://spadmanaban25.github.io/cse15l-lab-report/lab-report-4-week-8)
 <br><br>
+[Week 10 Lab Report](https://spadmanaban25.github.io/cse15l-lab-report/lab-report-5-week-10)
+<br><br>
